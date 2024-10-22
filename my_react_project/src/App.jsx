@@ -7,6 +7,7 @@ function App() {
     <>
         <Header/>
         <Food/>
+        <Food/>
         <Footer/>
     </>
   );
