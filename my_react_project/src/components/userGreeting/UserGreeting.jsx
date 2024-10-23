@@ -1,5 +1,4 @@
 import styles from './styles.module.css'
-import PropsType from 'prop-types'
 import PropTypes from "prop-types";
 
 function UserGreeting(props) {
