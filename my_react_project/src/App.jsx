@@ -9,6 +9,19 @@ import UserGreeting from "./components/userGreeting/UserGreeting.jsx"
 import List from './components/List/List.jsx'
 
 function App() {
+    const fruits= [{id:1, name:'Apple',calories: 55},
+                                                {id:2, name:'Orange', calories: 65},
+                                                {id:3, name:'Mango', calories: 85},
+                                                {id:4, name:'Banana', calories: 105},
+                                                {id:5, name:'Pineapple', calories: 103},
+                                                {id:6, name:'Coconut', calories: 104}]
+    const vegetables= [{id:7, name:'Potatoes',calories: 110},
+                                                {id:8, name:'Carrot', calories: 105},
+                                                {id:9, name:'Celery', calories: 15},
+                                                {id:10, name:'Onion', calories: 65},
+                                                {id:11, name:'Tomato', calories: 70},
+                                                {id:12, name:'Cucumber', calories: 59}]
+
     return (
         <>
             <Header/>
@@ -33,7 +46,9 @@ function App() {
             <UserGreeting isLoggedIn={true} username='Defenseman'/>
             <UserGreeting isLoggedIn={true}/>
             <hr></hr>
-            <List/>
+            {fruits.length > 0 ? <List items={fruits} category='Fruits'/> : null}
+            {vegetables.length > 0 && <List items={vegetables} category='Vegetables'/>}
+            <List />
         </>
     );
 }
