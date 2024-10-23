@@ -6,33 +6,36 @@ import Button from './components/Buttons/Button.jsx'
 import Button2 from "./components/Buttons/Button2.jsx";
 import Students from "./components/Students/Students.jsx";
 import UserGreeting from "./components/userGreeting/UserGreeting.jsx"
+import List from './components/List/List.jsx'
 
 function App() {
-  return (
-      <>
-          <Header/>
-          <Food/>
-          <Food/>
-          <Footer/>
-          <hr></hr>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <hr></hr>
-          <Button/>
-          <Button2/>
-          <hr></hr>
-          <Students name='Spongebob' age={30} isStudent={true} />
-          <Students name='Patrik' age={42} isStudent={false} />
-          <Students name='Squidward' age={49} isStudent={false} />
-          <Students name='Sandy' age={27} isStudent={true} />
-          <Students/>
-          <hr></hr>
-          <UserGreeting isLoggedIn={true} username='Defenseman' />
-          <UserGreeting isLoggedIn={true} />
-      </>
-  );
+    return (
+        <>
+            <Header/>
+            <Food/>
+            <Food/>
+            <Footer/>
+            <hr></hr>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <hr></hr>
+            <Button/>
+            <Button2/>
+            <hr></hr>
+            <Students name='Spongebob' age={30} isStudent={true}/>
+            <Students name='Patrik' age={42} isStudent={false}/>
+            <Students name='Squidward' age={49} isStudent={false}/>
+            <Students name='Sandy' age={27} isStudent={true}/>
+            <Students/>
+            <hr></hr>
+            <UserGreeting isLoggedIn={true} username='Defenseman'/>
+            <UserGreeting isLoggedIn={true}/>
+            <hr></hr>
+            <List/>
+        </>
+    );
 }
 
 export default App
