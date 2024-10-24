@@ -9,6 +9,7 @@ import UserGreeting from "./components/userGreeting/UserGreeting.jsx"
 import List from './components/List/List.jsx'
 import ClickEvents from './components/Click events/clickEvents.jsx'
 import Component from "./components/reactHook/reactHook.jsx";
+import OnChangeComponent from "./components/onChange/onChange.jsx"
 
 
 function App() {
@@ -56,6 +57,8 @@ function App() {
             <ClickEvents/>
             <hr></hr>
             <Component/>
+            <hr></hr>
+            <OnChangeComponent/>
             <hr></hr>
         </>
     );
