@@ -1,0 +1,29 @@
+.container {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 10rem;
+}
+
+.display {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.buttons {
+    font-size: 2rem;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: hsl(140, 100%, 55%);
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #ececec;
+}
+.buttons:hover {
+    background-color: hsl(142, 85%, 40%);
+}
+.buttons:active {
+    background-color: hsl(141, 100%, 16%);
+}

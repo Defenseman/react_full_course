@@ -8,6 +8,7 @@ import Students from "./components/Students/Students.jsx";
 import UserGreeting from "./components/userGreeting/UserGreeting.jsx"
 import List from './components/List/List.jsx'
 import ClickEvents from './components/Click events/clickEvents.jsx'
+import Component from "./components/reactHook/reactHook.jsx";
 
 
 function App() {
@@ -53,6 +54,9 @@ function App() {
             <List/>
             <hr></hr>
             <ClickEvents/>
+            <hr></hr>
+            <Component/>
+            <hr></hr>
         </>
     );
 }
