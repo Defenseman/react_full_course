@@ -1,0 +1,13 @@
+.button {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 5px;
+    color: white;
+    background-color: #21ac21;
+}
+.image {
+    max-width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}

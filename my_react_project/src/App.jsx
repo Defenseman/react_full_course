@@ -7,6 +7,8 @@ import Button2 from "./components/Buttons/Button2.jsx";
 import Students from "./components/Students/Students.jsx";
 import UserGreeting from "./components/userGreeting/UserGreeting.jsx"
 import List from './components/List/List.jsx'
+import ClickEvents from './components/Click events/clickEvents.jsx'
+
 
 function App() {
     const fruits= [{id:1, name:'Apple',calories: 55},
@@ -48,7 +50,9 @@ function App() {
             <hr></hr>
             {fruits.length > 0 ? <List items={fruits} category='Fruits'/> : null}
             {vegetables.length > 0 && <List items={vegetables} category='Vegetables'/>}
-            <List />
+            <List/>
+            <hr></hr>
+            <ClickEvents/>
         </>
     );
 }

@@ -21,6 +21,7 @@ function List(props) {
             </ol>
         </>)
 }
+
 List.propTypes = {
     category: PropTypes.string,
     items: PropTypes.arrayOf(PropTypes.shape({
@@ -29,6 +30,7 @@ List.propTypes = {
         calories: PropTypes.number
     })),
 }
+
 List.defaultProps = {
     category: "Category",
     items: []
