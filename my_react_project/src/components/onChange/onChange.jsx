@@ -1,3 +1,7 @@
+// onChange = event handler used primarily with form elements
+//            ex. <input>, <textarea>, <select>, <radio>
+//            Triggers a function every time the value of the input changes
+
 import React, {useState} from 'react';
 
 function OnChangeComponent() {
@@ -39,11 +43,16 @@ function OnChangeComponent() {
             </select>
             <p>Payment: {payment}</p>
             <label>
-                <input type='radio' value='Pick Up' checked={shipping === 'Pick Up'} onChange={shippingMethod}/> Pick Up<br/>
-                <input type='radio' value='Delivery' checked={shipping === 'Delivery'} onChange={shippingMethod}/> Delivery
+                <input type='radio' value='Pick Up' checked={shipping === 'Pick Up'} onChange={shippingMethod}
+                       style={{display: "inline-block"}}/>
+                <p style={{display: "inline-block", cursor: "pointer"}}>Pick Up</p><br/>
+            </label>
+            <label>
+                <input type='radio' value='Delivery' checked={shipping === 'Delivery'} onChange={shippingMethod}
+                       style={{display: "inline-block"}}/>
+                <p style={{display: "inline-block", cursor: "pointer"}}>Delivery</p>
                 <p>Shipping: {shipping}</p>
             </label>
-
         </>
     )
 }
