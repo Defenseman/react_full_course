@@ -12,6 +12,7 @@ import Component from "./components/reactHook/reactHook.jsx";
 import OnChangeComponent from "./components/onChange/onChange.jsx"
 import ColorPicker from "./components/colorPicker/colorPicker.jsx";
 import UpdateFnc from "./components/updateFnc/updateFnc.jsx";
+import UpdateState from './components/updateStateOfObjects/updateState.jsx'
 
 function App() {
     const fruits= [{id:1, name:'Apple',calories: 55},
@@ -64,6 +65,8 @@ function App() {
             <ColorPicker/>
             <hr></hr>
             <UpdateFnc/>
+            <hr></hr>
+            <UpdateState/>
         </>
     );
 }

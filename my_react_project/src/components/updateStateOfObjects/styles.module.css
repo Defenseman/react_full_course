@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #b8b8b8;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #636363;
+    max-width: 500px;
+    margin: 20px auto;
+}
+.container h1 {
+    font-size: 2rem;
+    color: hsl(23, 79%, 11%);
+}
+.container label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: hsl(0, 3%, 11%);
+}
+.container input {
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.container h2 {
+    font-size: 1.6rem;
+    color: hsl(23, 79%, 11%);
+}
