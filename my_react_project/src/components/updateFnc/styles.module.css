@@ -1,0 +1,8 @@
+.container {
+    text-align: center;
+}
+.container p {
+    font-size: 7rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}

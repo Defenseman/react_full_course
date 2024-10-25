@@ -11,6 +11,7 @@ import ClickEvents from './components/Click events/clickEvents.jsx'
 import Component from "./components/reactHook/reactHook.jsx";
 import OnChangeComponent from "./components/onChange/onChange.jsx"
 import ColorPicker from "./components/colorPicker/colorPicker.jsx";
+import UpdateFnc from "./components/updateFnc/updateFnc.jsx";
 
 function App() {
     const fruits= [{id:1, name:'Apple',calories: 55},
@@ -62,6 +63,7 @@ function App() {
             <hr></hr>
             <ColorPicker/>
             <hr></hr>
+            <UpdateFnc/>
         </>
     );
 }
