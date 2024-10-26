@@ -33,7 +33,7 @@ function UpdateState() {
                 <p>Year:</p>
                 <input value={state.year} onChange={updateYear} type='number'/>
             </label>
-            <h2>My favorite care is: {state.mark} {state.model} {state.year}</h2>
+            <h2>My favorite car is: {state.mark} {state.model} {state.year}</h2>
         </div>
 
     )
