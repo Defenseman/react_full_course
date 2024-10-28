@@ -13,7 +13,7 @@ import OnChangeComponent from "./components/onChange/onChange.jsx"
 import ColorPicker from "./components/colorPicker/colorPicker.jsx";
 import UpdateFnc from "./components/updateFnc/updateFnc.jsx";
 import UpdateState from './components/updateStateOfObjects/updateState.jsx'
-import UpdateStateArray from './components/UpdateStateArray/updateStateArrey.jsx'
+import UpdateStateArray from './components/UpdateStateArray/updateStateArray.jsx'
 
 
 function App() {
@@ -71,6 +71,7 @@ function App() {
             <UpdateState/>
             <hr></hr>
             <UpdateStateArray/>
+            <hr></hr>
         </>
     );
 }
