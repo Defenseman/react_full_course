@@ -14,6 +14,7 @@ import ColorPicker from "./components/colorPicker/colorPicker.jsx";
 import UpdateFnc from "./components/updateFnc/updateFnc.jsx";
 import UpdateState from './components/updateStateOfObjects/updateState.jsx'
 import UpdateStateArray from './components/UpdateStateArray/updateStateArray.jsx'
+import UpdateArrayOfObjects from './components/updateArrayOfObjects/updateArrayOfObjects.jsx'
 
 
 function App() {
@@ -71,6 +72,8 @@ function App() {
             <UpdateState/>
             <hr></hr>
             <UpdateStateArray/>
+            <hr></hr>
+            <UpdateArrayOfObjects/>
             <hr></hr>
         </>
     );
